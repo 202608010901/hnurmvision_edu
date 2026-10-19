@@ -1,0 +1,24 @@
+/build*/
+/assets/*.avi
+/assets/*.mp4
+*.log
+.vscode/
+.idea/
+
+# Local AI-agent workspaces and session records
+/.claude/
+/.agents/
+/.codex/
+
+# ROS2 interface workspace
+/simulation/build_interfaces/
+/simulation/install_interfaces/
+/simulation/log/
+
+# Generated simulator runtime
+/simulation/simulator/bin/
+/simulation/simulator/target/
+/simulation/simulator/training_scores.json
+
+# Local simulation diagnostics
+/simulation/outputs/
